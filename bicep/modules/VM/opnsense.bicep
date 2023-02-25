@@ -71,8 +71,8 @@ resource OPNsense 'Microsoft.Compute/virtualMachines@2021-03-01' = {
       }
       imageReference: {
         publisher: 'thefreebsdfoundation'
-        offer: 'freebsd-13_1'
-        sku: '13_1-release'
+        offer: 'freebsd-13_0'
+        sku: '13_0-release'
         version: 'latest'
       }
     }

@@ -101,9 +101,9 @@ resource OPNsense 'Microsoft.Compute/virtualMachines@2021-03-01' = {
     }
   }
   plan: {
-    name: '13_1-release'
+    name: '13_0-release'
     publisher: 'thefreebsdfoundation'
-    product: 'freebsd-13_1'
+    product: 'freebsd-13_0'
   }
 }
 
